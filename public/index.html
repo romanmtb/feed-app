@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Itea Feed App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/e637d7f193/UntitledProject/style-svg.css"> -->
+  <link rel="stylesheet" href="css/calendar.css">
+  <script defer src="https://i.icomoon.io/public/temp/e637d7f193/UntitledProject/svgxuse.js"></script>
+</head>
+<body>
+<div id="block_overlay"></div>
+  <div class="main_wrap">
+    <div class="header">
+
+      <div class="logo" title="logo">
+        <a href="#">
+          <img src="img/js_feed.png" alt="logo">
+        </a>
+      </div>
+      <div class="search">
+        <input id="inp_search" type="text" placeholder="post search">
+        <button id="btn_search"></button>
+        <div id="result_search"></div>
+      </div>
+
+      <div class="user_avatar" title="avatar">
+        <a href="#">
+          <img data-id="4" class="profile_Avatar" id="profAvat" src="https://cdn3.iconfinder.com/data/icons/watchify-v1-0-32px/32/lock-512.png" alt="">
+        </a>
+      </div>
+
+    </div>
+    <div class="main_section">
+      <div class="wrap_tabs">
+        <ul id="tab_container">
+          <li class="active" data-id="1">
+            <a href="#">Feed</a>
+          </li>
+          <li data-id="2">
+            <a href="#">Calendar</a>
+          </li>
+          <li data-id="3">
+            <a href="#">Tags</a>
+          </li>
+          <li data-id="4">
+            <a href="#">Account</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="posts" class="tab_content wrap_posts show" data-id="1">
+        <div class="wrap_posts" id="wrap_posts">
+
+        </div>
+      </div>
+
+      <div id="calendar" class="tab_content wrap_calendar hide" data-id="2">
+        calendar
+      </div>
+
+      <div id="tags" class="tab_content wrap_tags hide" data-id="3">
+        tags
+      </div>
+
+      <div id="account" class="tab_content wrap_account hide" data-id="4">
+       <div id="profilereg" class="show">
+         <div class="account_wrap">
+
+           <div class="registration_wrap">
+             <h2 class="reg_text">First time here?</h2>
+             <form action="registr" id="registration_form">
+               <label  for="login">Enter your first name
+                 <input type="text" class="input_field" id="login">
+               </label>
+
+               <label for="last">
+                 Enter your last name
+                 <input type="text" class="input_field" id="last">
+               </label>
+
+
+               <label for="email">Enter your email
+                 <input type="text" class="input_field" id="email">
+               </label>
+
+               <label for="pass">Enter your password
+                 <input type="password" class="input_field" id="pass">
+               </label>
+               <label for="confirm_pass">Confirm your password
+                 <input type="password" class="input_field" id="confirm_pass">
+               </label>
+               <button id="registr">Registration</button>
+               <p id="error_form"></p>
+               <p id="succesRegistr"></p>
+             </form>
+           </div>
+           <div class="signUp_wrap">
+             <h2 class="reg_text">Log In</h2>
+             <form action="signUp" id="signUp_form">
+               <label for="signUp_email">
+                 Email
+                 <input class="input_field" type="text" id="signUp_email">
+               </label>
+               <label for="signUp_password">
+                 Password
+                 <input class="input_field" type="password" id="signUp_password">
+               </label>
+               <button id="signUp">Sign Up</button>
+               <p class="signUp_error"></p>
+             </form>
+           </div>
+
+
+         </div>
+       </div>
+       <div id="profWrap" class="profile_wrap hide">
+          <div class="info_block">
+            <img src="" alt="profile_Avatar" class="profile_Avatar">
+            <p id="profile_Name"></p>
+            <p id="profile_Last"></p>
+            <p id="profile_Email"></p>
+              <form action="setUrl" id="urlChanger">
+                  <label for="setAvatar">
+                      Set URL for avatar
+                      <input class="input_field" type="text" id="setAvatar">
+                  </label>
+                  <p class="confirmChange"></p>
+                  <button id="setUrl">Change Avatar</button>
+                  <p id="errorAvatarUrl"></p>
+              </form>
+          </div>
+          <button id="logout_btn">Log Out</button>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  <script src="js/bundle.js"></script>
+</body>
+</html>

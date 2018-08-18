@@ -1,0 +1,19 @@
+{
+  "name": "itea__feedapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "webpack ./application/index.js --output-path ./public/js --output-filename bundle.js --env development --mode development --color --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
+  }
+}

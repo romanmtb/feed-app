@@ -1,0 +1,84 @@
+/* #calendar *{ */
+  /* outline: 1px solid red;
+} */
+
+table {
+  width: 100%;
+  font-size: 20px;
+}
+
+tbody {
+  width: 100%;
+
+}
+
+tr {
+  width: 100%;
+
+}
+
+th {
+  width: 100%;
+  padding-top: 10px;
+}
+
+
+td {
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+td:hover {
+  box-shadow: inset 0px 2px 5px #eee;
+}
+
+button {
+
+}
+.header_row{
+  position: relative;
+}
+.arrow_btn {
+  padding: 4px 9.5px;
+  border-radius: 15px;
+  background-color: #4285F4;
+  color: #fff;
+  cursor: pointer;
+  transition: ease .1s;
+  font-size: 1.3rem;
+}
+.arrow_btn:hover {
+  border-radius: 15px;
+  background-color: #F0DB4E;
+  box-shadow: inset 0px 2px 5px #aeaeae;
+}
+#right-btn{
+  position: absolute;
+  right: 0px;
+  top: 3px;
+}
+
+#left-btn{
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+
+.monthName{
+  font-size: 20px;
+margin: 0 10px;
+}
+
+.day-one {
+  background-color: #ffcc66
+}
+
+.day-six {
+  background-color: #ff9900;
+}
+
+.day-nine {
+  background-color: #cc9900;
+}
