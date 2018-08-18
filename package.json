@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server -d",
     "build": "webpack -d --mode production",
-    "surge:fix-domain": "surge public/ --domain roman-calendar.surge.sh",
+    "surge:fix-domain": "surge public/ --domain roman-feed-app.surge.sh",
     "deploy": "npm run build && npm run surge:fix-domain"
   },
   "author": "",
