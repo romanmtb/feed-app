@@ -14,4 +14,4 @@ Demo application of javascript training courses. you can make it better, look fo
 
 ## UPLOAD (SURGE)
 
-`npm run deploy` to make build and upload ut to SURGE
+`npm run deploy` to make build and upload it to SURGE
