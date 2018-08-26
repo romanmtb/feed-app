@@ -1,6 +1,6 @@
 # FEED APPLICATION
 
-demo application of javascript training courses. you can make it better, look for issues / create new one, resolve created issues, make PR, make tea, make peace ☕
+Demo application of javascript training courses. you can make it better, look for issues / create new one, resolve created issues, make PR, make tea, make peace ☕
 
 ## SETUP
 
@@ -10,7 +10,7 @@ demo application of javascript training courses. you can make it better, look fo
 
 ## DEVELOP LOCALLY
 
-`npm run start` you know the job 
+`npm run start` you know the job
 
 ## UPLOAD (SURGE)
 
