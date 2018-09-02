@@ -1,6 +1,6 @@
 # FEED APPLICATION
 
-Demo application of javascript training courses. you can make it better, look for issues / create new one, resolve created issues, make PR, make tea, make peace ☕
+Demo application of javascript training courses. you can make it better, look for issues / create new one, resolve created issues
 
 ## SETUP
 
